@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int a,b;
+
+     printf("Enter first number=>");
+     scanf("%d",&a);
+
+     printf("Enter second number=>");
+     scanf("%d",&b);
+
+     printf("\nThe Sum is => %d\n",a+b);
+     printf("\nThe Difference is => %d\n",a-b);
+     printf("\nThe Multiplication is => %d\n",a*b);
+     printf("\nThe Division is => %d\n",a/b);
+
+return 0;
+}
