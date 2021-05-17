@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    printf("\nEnter value of a = ");
+    scanf("%d",&a);
+    printf("Enter value of b = ");
+    scanf("%d",&b);
+   
+
+    printf("\n&& Logical operator result -> %d",(a&&b));
+    printf("\n|| Logical operator result -> %d",(a||b));
+    printf("\n! Logical operator result for a-> %d",(!a));
+    printf("\n! Logical operator result for b-> %d",(!b));
+
+    return 0;
+}
