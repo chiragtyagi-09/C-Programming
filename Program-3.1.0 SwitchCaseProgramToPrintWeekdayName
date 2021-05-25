@@ -26,5 +26,7 @@ switch(day){
     default: printf("\nWrong number entered\n");
     break;
 }
+
 return 0;
+
 }
