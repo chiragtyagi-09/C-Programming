@@ -15,7 +15,7 @@ int main()
     {
       printf("\nODD number\n");
     }
-
-
+    
 return 0;
+
 }
