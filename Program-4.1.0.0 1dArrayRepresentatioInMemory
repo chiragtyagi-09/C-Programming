@@ -1,12 +1,22 @@
 #include<stdio.h>
 int main()
 {
-     int a[10];
-     printf("enter 3 values => ");
-     for(int i=0;i<3;i++) 
-     scanf("%d",&a[i]);   
+     int a[10],n;
+     printf("Enter how many values you want to enter in array => ");
+     scanf("%d",&n);
+     
+     printf("Enter values => ");
+     for(int i=0;i<n;i++) 
+     {
+         scanf("%d",&a[i]);
+     }   
+
      printf("Your values stored in array at index places =>\n");
-     for(int i=0;i<3;i++) 
-     printf("index value[%d] = %d\n",i,a[i]);
-     return 0;
+
+     for(int i=0;i<5;i++) 
+     {
+           printf("index value[%d] = %d\n",i,a[i]);
+     }
+
+return 0;
 }
