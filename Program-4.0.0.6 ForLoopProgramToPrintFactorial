@@ -20,6 +20,5 @@ int main()
        }
         printf("\nFactorial of %d = %d\n",n,factorial);
     }
-
 return 0; 
 }
