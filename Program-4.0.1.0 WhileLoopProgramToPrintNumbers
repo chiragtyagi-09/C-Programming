@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+     int i=1,n;
+
+     printf("\nEnter how many numbers you want to print : ");
+     scanf("%d",&n);
+
+     while( i<=n )
+     {
+       printf(" %d ",i);
+       ++i;
+     }
+
+return 0;
+}
