@@ -22,7 +22,6 @@ int main()
      {
        printf("\nNot an armstrong number\n");
      }
-
-
+     
 return 0;
 }
