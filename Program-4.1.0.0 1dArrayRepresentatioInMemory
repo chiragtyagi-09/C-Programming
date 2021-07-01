@@ -17,6 +17,7 @@ int main()
      {
            printf("index value[%d] = %d\n",i,a[i]);
      }
-
+     
 return 0;
+
 }
